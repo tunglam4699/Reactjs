@@ -1,0 +1,17 @@
+#layout{
+    table.cinereousTable {
+        border: 1px solid #ffffff;
+        background-color: #303030;
+        width: 80px;
+        height: 80px;
+      }
+    
+      table.cinereousTable td,
+      table.cinereousTable th {
+        border: 1px solid #ffffff;
+        padding: 3px 4px;
+      }
+      .sel {
+        background: royalBlue;
+      }
+}

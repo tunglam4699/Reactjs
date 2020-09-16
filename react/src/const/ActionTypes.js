@@ -1,0 +1,1 @@
+export const SELECT_PROPERTY = 'SELECT_PROPERTY';
