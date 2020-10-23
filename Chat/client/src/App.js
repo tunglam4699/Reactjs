@@ -3,8 +3,8 @@ import io from "socket.io-client";
 import "./App.css";
 import onlineIcon from "./icons/onlineIcon.png";
 import closeIcon from "./icons/closeIcon.png";
-import send from "./icons/iconsend.png";
-import videocall from "./icons/videocamera.png";
+import sendIcon from "./icons/iconsend.png";
+import videocallIcon from "./icons/videocamera.png";
 
 const socket = io.connect("http://localhost:4000");
 let this_id_socket = null;
@@ -71,7 +71,7 @@ function App() {
           </div>
           <div className="rightInnerContainer">
             <a href="/">
-              <img className="iconvideo" src={videocall} alt="video call" />
+              <img className="iconvideo" src={videocallIcon} alt="video call" />
               <img src={closeIcon} alt="close icon" />
             </a>
           </div>
@@ -95,7 +95,7 @@ function App() {
             className="input"
           />
           <button className="sendButton">
-            <img src={send} />
+            <img src={sendIcon} />
           </button>
         </form>
       </div>
