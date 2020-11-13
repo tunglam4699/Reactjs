@@ -1,0 +1,2 @@
+[submodule "task-manager/client"]
+	ignore = untracked
